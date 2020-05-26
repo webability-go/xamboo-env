@@ -1,0 +1,231 @@
+X[sys]: 2020/05/25 00:00:59 Logger starting...
+X[sys]: 2020/05/25 00:00:59 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 00:00:59 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 00:00:59 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 00:00:59 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 00:00:59 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 00:00:59 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 00:00:59 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 00:00:59 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 00:00:59 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 00:00:59 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 00:00:59 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 00:00:59 Build Engines Containers native and external
+X[sys]: 2020/05/25 00:00:59 Launching the compilation supervisor.
+X[sys]: 2020/05/25 00:00:59 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 00:00:59 Scanning Listener: L[http]
+X[sys]: 2020/05/25 00:00:59 Scanning Listener: L[https]
+X[sys]: 2020/05/25 00:00:59 Launching Listener: L[https]
+X[sys]: 2020/05/25 00:00:59 Launching Listener: L[http]
+X[sys]: 2020/05/25 00:00:59 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 00:00:59 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 00:09:23 Logger starting...
+X[sys]: 2020/05/25 00:09:23 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 00:09:23 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 00:09:23 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 00:09:23 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 00:09:23 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 00:09:23 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 00:09:23 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 00:09:23 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 00:09:23 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 00:09:23 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 00:09:23 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 00:09:23 Build Engines Containers native and external
+X[sys]: 2020/05/25 00:09:23 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 00:09:23 Launching the compilation supervisor.
+X[sys]: 2020/05/25 00:09:23 Scanning Listener: L[http]
+X[sys]: 2020/05/25 00:09:23 Scanning Listener: L[https]
+X[sys]: 2020/05/25 00:09:23 Launching Listener: L[https]
+X[sys]: 2020/05/25 00:09:23 Launching Listener: L[http]
+X[sys]: 2020/05/25 00:09:23 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 00:09:23 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 00:23:53 Logger starting...
+X[sys]: 2020/05/25 00:23:53 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 00:23:53 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 00:23:53 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 00:23:53 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 00:23:53 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 00:23:53 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 00:23:53 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 00:23:53 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 00:23:53 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 00:23:53 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 00:23:53 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 00:23:53 Build Engines Containers native and external
+X[sys]: 2020/05/25 00:23:53 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 00:23:53 Launching the compilation supervisor.
+X[sys]: 2020/05/25 00:23:53 Scanning Listener: L[http]
+X[sys]: 2020/05/25 00:23:53 Scanning Listener: L[https]
+X[sys]: 2020/05/25 00:23:53 Launching Listener: L[https]
+X[sys]: 2020/05/25 00:23:53 Launching Listener: L[http]
+X[sys]: 2020/05/25 00:23:53 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 00:23:53 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 01:24:15 Logger starting...
+X[sys]: 2020/05/25 01:24:15 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 01:24:15 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 01:24:15 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 01:24:15 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 01:24:15 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 01:24:15 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 01:24:15 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 01:24:15 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 01:24:15 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 01:24:15 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 01:24:15 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 01:24:15 Build Engines Containers native and external
+X[sys]: 2020/05/25 01:24:15 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 01:24:15 Launching the compilation supervisor.
+X[sys]: 2020/05/25 01:24:15 Scanning Listener: L[http]
+X[sys]: 2020/05/25 01:24:15 Scanning Listener: L[https]
+X[sys]: 2020/05/25 01:24:15 Launching Listener: L[https]
+X[sys]: 2020/05/25 01:24:15 Launching Listener: L[http]
+X[sys]: 2020/05/25 01:24:15 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 01:24:15 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 10:00:18 Logger starting...
+X[sys]: 2020/05/25 10:00:18 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 10:00:18 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 10:00:18 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 10:00:18 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:00:18 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:00:18 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:00:18 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 10:00:18 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:00:18 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:00:18 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:00:18 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 10:00:18 Build Engines Containers native and external
+X[sys]: 2020/05/25 10:00:18 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 10:00:18 Launching the compilation supervisor.
+X[sys]: 2020/05/25 10:00:18 Scanning Listener: L[http]
+X[sys]: 2020/05/25 10:00:18 Scanning Listener: L[https]
+X[sys]: 2020/05/25 10:00:18 Launching Listener: L[https]
+X[sys]: 2020/05/25 10:00:18 Launching Listener: L[http]
+X[sys]: 2020/05/25 10:00:18 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 10:00:18 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 10:29:10 Logger starting...
+X[sys]: 2020/05/25 10:29:10 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 10:29:10 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 10:29:10 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 10:29:10 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:29:10 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:29:10 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:29:10 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 10:29:10 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:29:10 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:29:10 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:29:10 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 10:29:10 Build Engines Containers native and external
+X[sys]: 2020/05/25 10:29:10 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 10:29:10 Launching the compilation supervisor.
+X[sys]: 2020/05/25 10:29:10 Scanning Listener: L[http]
+X[sys]: 2020/05/25 10:29:10 Scanning Listener: L[https]
+X[sys]: 2020/05/25 10:29:10 Launching Listener: L[https]
+X[sys]: 2020/05/25 10:29:10 Launching Listener: L[http]
+X[sys]: 2020/05/25 10:29:10 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 10:29:10 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 10:32:26 Logger starting...
+X[sys]: 2020/05/25 10:32:26 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 10:32:26 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 10:32:26 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 10:32:26 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:32:26 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:32:26 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:32:26 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 10:32:26 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:32:26 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:32:26 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:32:26 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 10:32:26 Build Engines Containers native and external
+X[sys]: 2020/05/25 10:32:26 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 10:32:26 Launching the compilation supervisor.
+X[sys]: 2020/05/25 10:32:26 Scanning Listener: L[http]
+X[sys]: 2020/05/25 10:32:26 Scanning Listener: L[https]
+X[sys]: 2020/05/25 10:32:26 Launching Listener: L[https]
+X[sys]: 2020/05/25 10:32:26 Launching Listener: L[http]
+X[sys]: 2020/05/25 10:32:26 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 10:32:26 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 10:40:00 Logger starting...
+X[sys]: 2020/05/25 10:40:00 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 10:40:00 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 10:40:00 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 10:40:00 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:40:00 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:40:00 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:40:00 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 10:40:00 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:40:00 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:40:00 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:40:00 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 10:40:00 Build Engines Containers native and external
+X[sys]: 2020/05/25 10:40:00 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 10:40:00 Launching the compilation supervisor.
+X[sys]: 2020/05/25 10:40:00 Scanning Listener: L[http]
+X[sys]: 2020/05/25 10:40:00 Scanning Listener: L[https]
+X[sys]: 2020/05/25 10:40:00 Launching Listener: L[https]
+X[sys]: 2020/05/25 10:40:00 Launching Listener: L[http]
+X[sys]: 2020/05/25 10:40:00 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 10:40:00 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 10:44:02 Logger starting...
+X[sys]: 2020/05/25 10:44:02 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 10:44:02 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 10:44:02 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 10:44:02 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:44:02 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:44:02 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:44:02 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 10:44:02 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:44:02 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:44:02 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:44:02 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 10:44:02 Build Engines Containers native and external
+X[sys]: 2020/05/25 10:44:02 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 10:44:02 Launching the compilation supervisor.
+X[sys]: 2020/05/25 10:44:02 Scanning Listener: L[http]
+X[sys]: 2020/05/25 10:44:02 Scanning Listener: L[https]
+X[sys]: 2020/05/25 10:44:02 Launching Listener: L[https]
+X[sys]: 2020/05/25 10:44:02 Launching Listener: L[http]
+X[sys]: 2020/05/25 10:44:02 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 10:44:02 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 10:54:49 Logger starting...
+X[sys]: 2020/05/25 10:54:49 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 10:54:49 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 10:54:49 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 10:54:49 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:54:49 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:54:49 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:54:49 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 10:54:49 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:54:49 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:54:49 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:54:49 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 10:54:49 Build Engines Containers native and external
+X[sys]: 2020/05/25 10:54:49 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 10:54:49 Launching the compilation supervisor.
+X[sys]: 2020/05/25 10:54:49 Scanning Listener: L[http]
+X[sys]: 2020/05/25 10:54:49 Scanning Listener: L[https]
+X[sys]: 2020/05/25 10:54:49 Launching Listener: L[https]
+X[sys]: 2020/05/25 10:54:49 Launching Listener: L[http]
+X[sys]: 2020/05/25 10:54:49 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 10:54:49 Link Host H[devapi-for-cors-api] to L[https] Done
+X[sys]: 2020/05/25 10:57:17 Logger starting...
+X[sys]: 2020/05/25 10:57:17 Link Log X[errors] to file: ./example/logs/xamboo-error.log
+X[sys]: 2020/05/25 10:57:17 Link Log L[http][sys] to file: ./example/logs/listener-http-sys.log
+X[sys]: 2020/05/25 10:57:17 Link Log L[https][sys] to file: ./example/logs/listener-https-sys.log
+X[sys]: 2020/05/25 10:57:17 Link Log H[developers][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:57:17 Link Log H[developers][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:57:17 Link Log H[developers][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:57:17 Link Log H[developers][stats] to call: MyStatFunction
+X[sys]: 2020/05/25 10:57:17 Link Log H[devapi-for-cors-api][pages] to file: ./example/logs/developers.log
+X[sys]: 2020/05/25 10:57:17 Link Log H[devapi-for-cors-api][errors] to file: ./example/logs/developers-error.log
+X[sys]: 2020/05/25 10:57:17 Link Log H[devapi-for-cors-api][sys] to file: ./example/logs/developers-sys.log
+X[sys]: 2020/05/25 10:57:17 Link Log H[devapi-for-cors-api][stats] to discard:
+X[sys]: 2020/05/25 10:57:17 Build Engines Containers native and external
+X[sys]: 2020/05/25 10:57:17 Stats cleaner launched. Clean every minute.
+X[sys]: 2020/05/25 10:57:17 Launching the compilation supervisor.
+X[sys]: 2020/05/25 10:57:17 Scanning Listener: L[http]
+X[sys]: 2020/05/25 10:57:17 Scanning Listener: L[https]
+X[sys]: 2020/05/25 10:57:17 Launching Listener: L[https]
+X[sys]: 2020/05/25 10:57:17 Launching Listener: L[http]
+X[sys]: 2020/05/25 10:57:17 Link Host H[developers] to L[https] Done
+X[sys]: 2020/05/25 10:57:17 Link Host H[devapi-for-cors-api] to L[https] Done
