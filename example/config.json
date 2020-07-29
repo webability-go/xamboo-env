@@ -84,7 +84,7 @@
         "pages": "file:./example/logs/developers.log",
         "errors": "file:./example/logs/developers-error.log",
         "sys": "file:./example/logs/developers-sys.log",
-        "stats": "call:MyStatFunction",
+        "stats": "discard",
         "rotate": "1d",
         "compress": true
       }
