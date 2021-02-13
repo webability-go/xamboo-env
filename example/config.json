@@ -9,10 +9,7 @@
       "writetimeout": 120,
       "headersize": 65536,
       "log": {
-        "comments": "this field is ignored by the xamboo. The rotate field is 1d, 1w, 1m, for days, weeks, months, compress = true to compress older files. logs can be file:[file] or stdout: or stderr: or discard:. the sys log is used for deep code log (like debug, pages code log, etc)",
-        "sys": "file:./example/logs/listener-http-sys.log",
-        "rotate": "1d",
-        "compress": true
+        "sys": "file:./example/logs/listener-http-sys.log"
       }
     },
     {
@@ -24,10 +21,7 @@
       "writetimeout": 120,
       "headersize": 65536,
       "log": {
-        "comments": "this field is ignored by the xamboo. The rotate field is 1d, 1w, 1m, for days, weeks, months, compress = true to compress older files. logs can be file:[file] or stdout: or stderr: or discard:. the sys log is used for deep code log (like debug, pages code log, etc)",
-        "sys": "file:./example/logs/listener-https-sys.log",
-        "rotate": "1d",
-        "compress": true
+        "sys": "file:./example/logs/listener-https-sys.log"
       }
     }
   ],
@@ -151,13 +145,31 @@
       "hostnames": [
         "devapi.webability.info"
       ],
-      "config": [
-        "./example/application/config/example.conf"
-      ],
       "cert": "./example/ssl/cert.pem",
       "key": "./example/ssl/privkey.pem",
-      "static": "./example/repository/public/static",
-      "gzip": {
+      "plugins": [
+        { "Name":"app",
+          "Library": "./example/app/app.so"
+        }
+      ],
+
+      "origin": {
+        "maindomains": ["webability.info"],
+        "default": "https://developers.webability.info",
+        "methods": ["GET", "POST", "OPTIONS"],
+        "headers": ["Accept", "Content-Type", "Content-Length", "Accept-Encoding", "X-CSRF-Token", "Authorization", "Origin", "X-Requested-With", "Method"],
+        "credentials": true
+      },
+
+      "redirect": {
+        "enabled": false
+      },
+
+      "auth": {
+        "enabled": false
+      },
+
+      "compress": {
         "enabled": true,
         "mimes": [
           "text/html",
@@ -167,44 +179,65 @@
         "files": [
           "*.ico",
           "*.css",
-          "*.js"
+          "*.js",
+          "*.html"
         ]
       },
-      "auth": {
+
+      "fileserver": {
+        "enabled": true,
+        "takeover": false,
+        "static": "./example/repository/public/static"
+      },
+
+      "minify": {
+        "enabled": true,
+        "html": true,
+        "css": true,
+        "js": true,
+        "json": true,
+        "svg": true,
+        "xml": true
+      },
+
+      "cms": {
+        "enabled": true,
+        "config": [
+          "./example/application/config/exampleapi.conf"
+        ],
+        "engines": {
+          "simple": true,
+          "library": true,
+          "template": true,
+          "language": true,
+          "wajafapp": true,
+          "box": true
+        },
+        "browser": {
+          "enabled": true,
+          "useragent": {
+            "enabled": true,
+            "comments": "The context.Version will have one of: computer, phone, tablet, tv, console, wearable, base when the module is enabled"
+          }
+        }
+      },
+
+      "error": {
         "enabled": false
       },
+      "myhandler": {
+        "enabled": true,
+        "param1": "value1"
+      },
+
       "log": {
-        "comments": "this field is ignored by the xamboo. The rotate field is 1d, 1w, 1m, for days, weeks, months, compress = true to compress older files. logs can be file:[file] or stdout: or stderr: or discard:. the sys log is used for deep code log (like debug, pages code log, etc)",
+        "enabled": true,
         "pages": "file:./example/logs/developers.log",
+        "pagesformat": "%requestid% %clientip% %method% %protocol% %code% %request% %duration% %bytesout% %bytestocompress% %bytestominify%",
+        "pagesformatavailable": "use any of: %bytesout% %bytestocompress% %bytestominify% %clientip% %clientport% %code% %duration% %hostid% %listenerid% %listenerip% %listenerport% %protocol% %method% %request% %starttime% %endtime% %requestid%",
         "errors": "file:./example/logs/developers-error.log",
         "sys": "file:./example/logs/developers-sys.log",
-        "stats": "discard",
-        "rotate": "1d",
-        "compress": true
-      },
-      "origin": {
-        "maindomains": [
-          "webability.info",
-          "webability.org"
-        ],
-        "default": "https://developers.webability.info",
-        "methods": [
-          "GET",
-          "POST",
-          "OPTIONS"
-        ],
-        "headers": [
-          "Accept",
-          "Content-Type",
-          "Content-Length",
-          "Accept-Encoding",
-          "X-CSRF-Token",
-          "Authorization",
-          "Origin",
-          "X-Requested-With",
-          "Method"
-        ],
-        "credentials": true
+        "stats": "discard"
       }
     }
   ],
