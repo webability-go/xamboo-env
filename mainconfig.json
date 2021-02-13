@@ -15,6 +15,21 @@
     "./example/config.json"
   ],
 
+  "no-components": [
+  ],
+  "components": [
+    { "name": "log", "source": "built-in" },
+    { "name": "stat", "source": "built-in" },
+    { "name": "redirect", "source": "built-in" },
+    { "name": "auth", "source": "built-in" },
+    { "name": "compress", "source": "built-in" },
+    { "name": "minify", "source": "built-in" },
+    { "name": "origin", "source": "built-in" },
+    { "name": "fileserver", "source": "built-in" },
+    { "name": "cms", "source": "built-in" },
+    { "name": "error", "source": "built-in" },
+    { "name": "myhandler", "source": "extern", "library": "./example/components/myhandler/myhandler.so" }
+  ],
   "engines": [
     {
       "name": "simple",

@@ -50,6 +50,10 @@ You may attach the xamboo as a OS/service, calling the start.sh
 Version Changes Control
 =======================
 
+V0.0.3 - 2021-02-12
+-----------------------
+- Adaptation to Xamboo v1.5.0 not compatible with previous versions
+
 V0.0.2 - 2020-07-29
 -----------------------
 - Correct some config errors
