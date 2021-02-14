@@ -23,3 +23,6 @@ require (
 )
 
 replace github.com/webability-go/xamboo => ../xamboo
+
+replace example => ./example
+
