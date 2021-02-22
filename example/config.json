@@ -96,6 +96,13 @@
         "xml": true
       },
 
+      "myhandler": {
+        "enabled": true,
+        "404": false,
+        "maintenance": true,
+        "page": "maintenance.html"
+      },
+
       "cms": {
         "enabled": true,
         "config": [
@@ -120,10 +127,6 @@
       },
       "error": {
         "enabled": false
-      },
-      "myhandler": {
-        "enabled": true,
-        "param1": "value1"
       },
 
       "log": {
