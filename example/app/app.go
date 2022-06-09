@@ -7,6 +7,7 @@ import (
 
 	"github.com/webability-go/xamboo/applications"
 	"github.com/webability-go/xamboo/cms/context"
+	"github.com/webability-go/xamboo/components/host"
 	"github.com/webability-go/xamboo/config"
 )
 
@@ -49,6 +50,6 @@ func GetPageData(ctx *context.Context, template *xcore.XTemplate, language *xcor
 	return "This is the code of the external application after build all what you need into it. This is a shared library compiled as a plugin."
 }
 
-func LogStat(ctx *context.Context) {
+func LogStat(hw host.HostWriter) {
 	fmt.Println("Log Stat de App alcanzado !!")
 }

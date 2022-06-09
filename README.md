@@ -12,6 +12,14 @@ https://github.com/webability-go/xamboo
 Version Changes Control
 =======================
 
+V0.1.0 - 2022-06-09
+-----------------------
+- Made compatible with Xamboo 1.6
+
+V0.0.5 - 2021-03-18
+-----------------------
+- Added support for language selection when running the Xamboo
+
 V0.0.4 - 2021-02-21
 -----------------------
 - Example for Component added (maintenance mode, 404 error)
