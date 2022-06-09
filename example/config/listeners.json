@@ -1,0 +1,38 @@
+{
+  "listeners": [
+    {
+      "name": "http",
+      "ip": "",
+      "port": "82",
+      "protocol": "http",
+      "readtimeout": 120,
+      "writetimeout": 120,
+      "headersize": 65536,
+      "log": {
+        "sys": "file:./example/logs/listener-http-sys.log"
+      }
+    },
+    {
+      "name": "https",
+      "ip": "",
+      "port": "83",
+      "protocol": "https",
+      "readtimeout": 120,
+      "writetimeout": 120,
+      "headersize": 65536,
+      "log": {
+        "sys": "file:./example/logs/listener-https-sys.log"
+      }
+    },
+    {
+      "comments": "GRPC is still experimental and does not fully work",
+      "name": "grpc",
+      "ip": "",
+      "port": "84",
+      "protocol": "grpc",
+      "log": {
+        "sys": "file:./example/logs/listener-grpc-sys.log"
+      }
+    }
+  ]
+}

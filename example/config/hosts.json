@@ -1,47 +1,24 @@
 {
-  "listeners": [
-    {
-      "name": "http",
-      "ip": "",
-      "port": "82",
-      "protocol": "http",
-      "readtimeout": 120,
-      "writetimeout": 120,
-      "headersize": 65536,
-      "log": {
-        "sys": "file:./example/logs/listener-http-sys.log"
-      }
-    },
-    {
-      "name": "https",
-      "ip": "",
-      "port": "83",
-      "protocol": "https",
-      "readtimeout": 120,
-      "writetimeout": 120,
-      "headersize": 65536,
-      "log": {
-        "sys": "file:./example/logs/listener-https-sys.log"
-      }
-    }
-  ],
-  "hosts": [
+  "hosts":
+  [
     {
       "name": "developers",
-      "listeners": [
-        "http",
-        "https"
-      ],
-      "hostnames": [
-        "developers.webability.info"
-      ],
+      "listeners": ["http", "https"],
+      "hostnames": ["developers.webability.info"],
       "cert": "./example/ssl/cert.pem",
       "key": "./example/ssl/privkey.pem",
+
       "plugins": [
         { "Name":"app",
           "Library": "./example/app/app.so"
         }
       ],
+
+      "redirect": {
+        "enabled": true,
+        "scheme": "https",
+        "host": "developers.webability.info:83"
+      },
 
       "origin": {
         "enabled": true,
@@ -52,12 +29,6 @@
         "credentials": true
       },
 
-      "redirect": {
-        "enabled": true,
-        "scheme": "https",
-        "host": "developers.webability.info:83"
-      },
-
       "auth": {
         "enabled": true,
         "realm": "Xamboo Env test (xamboo/xamboo)",
@@ -65,19 +36,21 @@
         "pass": "xamboo"
       },
 
+      "prot": {
+        "enabled": true,
+        "sql": true,
+        "threshold": 3,
+        "ignore": ["sql"],
+        "ipblacklist": [
+          "10.",
+          "192.168."
+        ]
+      },
+
       "compress": {
         "enabled": true,
-        "mimes": [
-          "text/html",
-          "text/css",
-          "application/javascript"
-        ],
-        "files": [
-          "*.ico",
-          "*.css",
-          "*.js",
-          "*.html"
-        ]
+        "mimes": ["text/html", "text/css", "application/javascript", "application/json"],
+        "files": ["*.ico", "*.css", "*.js", "*.html"]
       },
 
       "fileserver": {
@@ -87,7 +60,7 @@
       },
 
       "minify": {
-        "enabled": true,
+        "enabled": false,
         "html": true,
         "css": true,
         "js": true,
@@ -97,7 +70,7 @@
       },
 
       "myhandler": {
-        "enabled": true,
+        "enabled": false,
         "404": false,
         "maintenance": true,
         "page": "maintenance.html"
@@ -126,7 +99,7 @@
 
       },
       "error": {
-        "enabled": false
+        "enabled": true
       },
 
       "log": {
@@ -142,19 +115,20 @@
     },
     {
       "name": "devapi-for-cors-api",
-      "listeners": [
-        "https"
-      ],
-      "hostnames": [
-        "devapi.webability.info"
-      ],
+      "listeners": ["https"],
+      "hostnames": ["devapi.webability.info"],
       "cert": "./example/ssl/cert.pem",
       "key": "./example/ssl/privkey.pem",
+
       "plugins": [
         { "Name":"app",
           "Library": "./example/app/app.so"
         }
       ],
+
+      "redirect": {
+        "enabled": false
+      },
 
       "origin": {
         "maindomains": ["webability.info"],
@@ -164,27 +138,14 @@
         "credentials": true
       },
 
-      "redirect": {
-        "enabled": false
-      },
-
       "auth": {
         "enabled": false
       },
 
       "compress": {
         "enabled": true,
-        "mimes": [
-          "text/html",
-          "text/css",
-          "application/javascript"
-        ],
-        "files": [
-          "*.ico",
-          "*.css",
-          "*.js",
-          "*.html"
-        ]
+        "mimes": ["text/html", "text/css", "application/javascript", "application/json"],
+        "files": ["*.ico", "*.css", "*.js", "*.html"]
       },
 
       "fileserver": {
@@ -242,13 +203,6 @@
         "sys": "file:./example/logs/developers-sys.log",
         "stats": "discard"
       }
-    }
-  ],
-  "engines": [
-    {
-      "name": "box",
-      "source": "extern",
-      "library": "./example/engines/box/box.so"
     }
   ]
 }

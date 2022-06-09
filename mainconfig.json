@@ -1,26 +1,30 @@
 {
   "log": {
+    "comments": "You may change the sys and errors logs to files instead of standard output",
     "sys-no": "file:./example/logs/xamboo-sys.log",
     "errors-no": "file:./example/logs/xamboo-error.log",
     "sys": "stdout:",
     "errors": "stdout:"
   },
 
-  "not-include": [
-    "./master/config.json"
+  "include-comments": "Add the master and admin configs to include array if you are going to install the master and admin sites",
+  "include-no": [
+    "./master/config.json",
+    "./admin/config.json"
   ],
 
   "include": [
-    "./example/config.json"
+    "./example/config/engines.json",
+    "./example/config/listeners.json",
+    "./example/config/hosts.json"
   ],
 
-  "no-components": [
-  ],
   "components": [
     { "name": "log", "source": "built-in" },
     { "name": "stat", "source": "built-in" },
     { "name": "redirect", "source": "built-in" },
     { "name": "auth", "source": "built-in" },
+    { "name": "prot", "source": "built-in" },
     { "name": "compress", "source": "built-in" },
     { "name": "minify", "source": "built-in" },
     { "name": "myhandler", "source": "extern", "library": "./example/components/myhandler/myhandler.so" },
@@ -30,25 +34,11 @@
     { "name": "error", "source": "built-in" }
   ],
   "engines": [
-    {
-      "name": "simple",
-      "source": "built-in"
-    },
-    {
-      "name": "library",
-      "source": "built-in"
-    },
-    {
-      "name": "template",
-      "source": "built-in"
-    },
-    {
-      "name": "language",
-      "source": "built-in"
-    },
-    {
-      "name": "wajafapp",
-      "source": "built-in"
-    }
+    { "name": "redirect", "source": "built-in" },
+    { "name": "simple", "source": "built-in" },
+    { "name": "library", "source": "built-in" },
+    { "name": "template", "source": "built-in" },
+    { "name": "language", "source": "built-in" },
+    { "name": "wajafapp", "source": "built-in" }
   ]
 }

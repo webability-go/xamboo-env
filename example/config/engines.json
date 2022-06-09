@@ -1,0 +1,9 @@
+{
+  "engines": [
+    {
+      "name": "box",
+      "source": "extern",
+      "library": "./example/engines/box/box.so"
+    }
+  ]
+}
