@@ -9,8 +9,11 @@
 
   "include-comments": "Add the master and admin configs to include array if you are going to install the master and admin sites",
   "include-no": [
-    "./master/config.json",
-    "./admin/config.json"
+    "./master/config/listeners.json",
+    "./master/config/hosts.json",
+
+    "./admin/config/listeners.json",
+    "./admin/config/hosts.json"
   ],
 
   "include": [
