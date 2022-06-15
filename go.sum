@@ -117,6 +117,7 @@ github.com/webability-go/xdominion v0.3.3 h1:GatmVC14gUNoP6emuLYEY4z74J/w7pZRE+x
 github.com/webability-go/xdominion v0.3.3/go.mod h1:ehP44Bt/Pjc60og0O1YXU18yuGfPpJ9JWfGxhr10QNQ=
 github.com/webability-go/xdominion v0.4.2 h1:gvj4j7NuSlZTZFy63WOa6CcOxk0wPS2iSS7Z7XoZ1ug=
 github.com/webability-go/xdominion v0.4.2/go.mod h1:ehP44Bt/Pjc60og0O1YXU18yuGfPpJ9JWfGxhr10QNQ=
+github.com/webability-go/xdommask v0.1.0 h1:HY6OrXRTv1IuV9cXxowQnxRnpttSuAfTTtG6OBb0ETc=
 github.com/webability-go/xdommask v0.1.0/go.mod h1:Yhy3yWcRKlDIi2esWgcU8prrRt/4jbC9Mrg7WnZfO6k=
 github.com/webability-go/xmodules v0.0.16 h1:gulGw10pcsUFntSzDfYhwhaYT8qBmkSJH77p+rql0yY=
 github.com/webability-go/xmodules v0.0.16/go.mod h1:veRf0/K8a8zo0O3yqSJb3UIkfNfZsuNTxWYXgPkkzP4=
