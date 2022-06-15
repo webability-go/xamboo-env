@@ -3,9 +3,9 @@ module github.com/webability-go/xamboo-env
 go 1.17
 
 require (
-        github.com/webability-go/xamboo v1.6.6
-        github.com/webability-go/xcore/v2 v2.1.2
-        golang.org/x/text v0.3.7
+	github.com/webability-go/xamboo v1.6.6
+	github.com/webability-go/xcore/v2 v2.1.2
+	golang.org/x/text v0.3.7
 )
 
 require (
@@ -23,7 +23,7 @@ require (
 	github.com/webability-go/xdommask v0.1.0 // indirect
 	github.com/webability-go/xmodules v0.0.16 // indirect
 	golang.org/x/net v0.0.0-20220615171555-694bf12d69de // indirect
-	golang.org/x/sys v0.0.0-20220614162138-6c1b26c55098 // indirect
+	golang.org/x/sys v0.0.0-20220615213510-4f61da869c0c // indirect
 	google.golang.org/genproto v0.0.0-20220615141314-f1464d18c36b // indirect
 	google.golang.org/grpc v1.47.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
